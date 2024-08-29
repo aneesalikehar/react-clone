@@ -1,0 +1,123 @@
+.mainbanner{
+    display: flex;
+    margin-top: 70px;
+}
+
+.leftimg img{
+    width: 100%;
+    height: 89vh;
+    margin-top: 50px;
+   z-index: 0;
+}
+.rightimg img{
+    width: 100%;
+    height: 89vh;
+    margin-top: 50px;
+    margin-bottom: 20px;
+}
+
+
+.center{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+.head h1{
+    font-weight: 700;
+    font-size: 2.50rem;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.searchbar{
+    position: relative;
+    display: inline-block;
+}
+
+.searchbar input{
+    padding: 15px 130px;
+    border-radius: 50px;
+    border: none;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    text-align: left;
+    margin-top: 30px;
+  outline: none;
+}
+
+.arrowicon{
+   position: absolute;
+   right: 15px;
+   margin-top: 10%;
+   height: 20vh;
+   font-size: 24%;
+   background-color: #e84393;
+   color: white;
+   outline: none;
+   border: none;
+   border-radius: 50%;
+}
+
+
+
+.bannerbtn{
+    background-color: #e84393;
+    outline: none;
+    border: none;
+    padding: 10px 60px;
+    font-size: 14px;
+    font-weight: 500;
+    border-radius: 20px;
+    cursor: pointer;
+    margin-top: 25px;
+    color: white;
+}
+
+.bannerpara{
+    font-weight: 500;
+    font-size: 14px;
+    color: gray;
+    width: 55%;
+    margin-top: 30px;
+    text-align: center;
+}
+
+
+@media screen and (max-width: 600px) {
+   .mainbanner{
+    flex-direction: column;
+   }
+
+   .leftimg img{
+    display: flex;
+    justify-content: center;
+    width: 50%;
+    height: 50vh;
+    margin: 0 auto;
+   }
+
+   .head h1{
+    font-weight: 700;
+    font-size: 1.50rem;
+    text-align: center;
+    width: 100%;
+}
+.searchbar input{
+    padding: 10px 100px;
+    margin-top: 10px;
+}
+
+.bannerpara{
+    width: 100%;
+}
+
+
+.rightimg img{
+    display: flex;
+    justify-content: end;
+    width: 50%;
+    height: 50vh;
+    margin: 0px 170px;
+   }
+  }
